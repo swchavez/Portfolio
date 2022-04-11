@@ -1,0 +1,476 @@
+/* 
+Reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 10px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+  }
+
+  .col-1-2 {
+    width: 50%;
+    }
+  .col-1-3 {
+	width: 33.33%;
+  }
+  .col-2-3 {
+	width: 66.66%;
+  }
+  .col-1-3, .col-2-3, .col-1-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3, 
+.col-1-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  nav
+  ========================================
+*/
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.nav {
+  text-align: center;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #344945;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.primary-footer{
+  padding-top: 50px;
+}
+.socmed {
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+.socmed img {
+  padding: 10px;
+  height: 50px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+body {
+  background: #f4fafd;
+  color: darkgreen;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong {
+  font-weight: 400;
+}
+p{
+  font-size: 15px;
+  font-weight: 381;
+}
+
+  /*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: rgb(0, 131, 55);
+  cursor: crosshair;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 10;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  }
+
+
+  .btn-alt:hover {
+    background: #fff;
+    color: #0051ff;
+  }
+
+ 
+/*
+  ========================================
+Index
+  ========================================
+*/
+.intro h1{
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.intro img {
+  margin-left: 300px;
+  width: 350px;
+  height: 200px;
+}
+
+.intro h3{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bio p{
+padding-bottom: 10px;
+}
+
+.headshot{
+  text-align: center;
+}
+/*
+  ========================================
+Portfolio
+  ========================================
+*/
+
+.portintro{
+  text-transform:capitalize;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.porthead h3{
+ text-align: center;
+ padding-top: 10px;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
+.memphis img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+  width: 250px;
+  margin-left: 150px;
+  padding-left: 50px;
+}
+
+.rebs img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+  width: 250px;
+  margin-left: 150px;
+  padding-left: 50px;
+}
+
+.experience h4 {
+  padding-top: 20px;
+  font-weight: 450;
+}
+
+.experience h5{
+  font-weight: 300;
+}
+
+.experience li {
+  color: black;
+}
+
+table {
+  border: 2px solid darkgreen; 
+  border-spacing:10px; 
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px; 
+  border: 1px solid darkgrey; 
+} 
+
+td {
+  text-align: center;
+}
+
+.publications h4{
+  padding-top: 20px;
+  margin-left: 100px;
+  font-weight: 450;
+}
+
+.publications img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  max-width: 50%;
+  width: 150px;
+  height: 200px;
+}
+
+.commercials p {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+.commercials img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  max-width: 50%;
+  width: 200px;
+  height: 150px;
+}
+
+.campaignmat p {
+  font-size: 23px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.campaignmat img{
+  float: left;
+  border-radius: 5px;
+  display:flex;
+  margin-bottom: 40px;
+  max-width: 100%;
+  height: 143px;
+  width: 171px;
+}
+
+.tracker p {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tracker img{
+  border-radius: 5px;
+  display:flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+.twitter p {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.twitter img{
+  border-radius: 5px;
+  display:flex;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  max-width: 100%;
+  width: 270px;
+  height: 200px;
+}
+
+.tableau p {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.tableau img{
+  border-radius: 5px;
+  display:flex;
+  margin-top: 50px;
+  max-width: 100%;
+  width: 300px;
+  height: 200px;
+}
+
+
+/*
+  ========================================
+Connect
+  ========================================
+*/
+
+.contactpage{
+  margin: 30px 0;
+  padding: 50px 0;
+  }
+  
+  .contactpage h2{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid black;
+    margin: 0 10px 20px 0;
+  }
+  
+  .contactpage a{
+  color:#000000;
+  margin: 15px 0;
+  }
+  
+  .contactpage p{
+  padding: 30px 0;
+  }
+  
+  .register-group label {
+    color: #000000;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .register-group input,
+  .register-group select,
+  .register-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+  }
+  .register-group input,
+  .register-group textarea {
+    width: 100%;
+  }
+  .register-group select {
+    height: 34px;
+    width: 60px;
+  }
+  .register-group textarea {
+    height: 78px;
+  }
