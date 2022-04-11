@@ -289,7 +289,7 @@ hr{
 }
 
 .rebs img{
-  border-radius: 5px;
+  border-radius: 20px;
   display: block;
   margin-bottom: 22px;
   max-width: 100%;
@@ -297,6 +297,24 @@ hr{
   margin-left: 150px;
   padding-left: 50px;
 }
+
+.portbtn {
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 150px;
+  padding: 20px;
+  }
+
+
+  .portbtn:hover {
+    color: #0051ff;
+  }
 
 .experience h4 {
   padding-top: 20px;
@@ -420,6 +438,16 @@ td {
   height: 200px;
 }
 
+.certifications h3{
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 25px;
+ }
+
+ .certifications p {
+   margin-bottom: 20px;
+   margin-left: 60px;
+ }
 
 /*
   ========================================
