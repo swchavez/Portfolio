@@ -577,3 +577,45 @@ td {
   color: #666;
   padding-bottom: 8px; /* Added padding to create separation below the text */
 }
+
+/******************************************
+  /* Responsive
+  /*******************************************/
+  @media only screen and (max-width: 768px) {
+    body {
+      margin: 15px; /* Reset margin for smaller screens */
+    }
+  
+    .button-container {
+      flex-direction: column; /* Stack buttons vertically */
+      align-items: center; /* Center buttons horizontally */
+      margin-top: 20px;
+    }
+  
+    .btn {
+      margin: 10px 0; /* Add margin between buttons */
+    }
+
+    .education section {
+      padding-bottom: 20px; /* Reduce padding for smaller screens */
+      max-width: 100%; /* Ensure full width on smaller screens */
+    }
+    
+    .education #mem,
+    .education #reb {
+      flex-direction: row; /* Stack elements vertically on smaller screens */
+      align-items: center; /* Center elements vertically */
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    .transcripts a {
+      padding: 10px 20px; /* Further reduce padding for smaller buttons */
+    }
+
+    .classproj div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Adjust the gap between divs */
+    }
+  
+    }
