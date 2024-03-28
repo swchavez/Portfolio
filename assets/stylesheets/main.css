@@ -1,0 +1,579 @@
+  /******************************************
+  /* Reset
+  /*******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* 
+Header & Footer
+*/
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #344945;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.primary-footer{
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.socmed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socmed img {
+  padding: 10px;
+  height: 50px;
+  margin: 22px 0 22px 0;
+  vertical-align: top;
+}
+
+
+  /******************************************
+  /* Styles
+  /*******************************************/
+
+body{
+  background: #f4fafd;
+  color: darkgreen;;
+  margin: 0 250px;
+}
+
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 20px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p{
+  font-size: 15px;
+  font-weight: 381;
+  padding: 5px 0;
+}
+
+  /******************************************
+  /* Buttons
+  /*******************************************/
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: darkgreen; /* Button color */
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 10px; /* Add spacing between buttons */
+  }
+  
+  .btn:hover {
+    background-color: navy; /* Darker shade on hover */
+  }
+
+    /******************************************
+  /* Index
+  /*******************************************/
+.intro h1{
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.intro h3{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.logoimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoimg img {
+  padding: 10px;
+  height: 40%;
+  width: 40%;
+  margin: 10px 0;
+  vertical-align: top;
+}
+
+.btn-home{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio p{
+  display: flex;
+  justify-content: flex-start;
+  justify-items: auto;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.headshot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+
+    /******************************************
+  /* Portfolio
+  /*******************************************/
+
+h1, h3{
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.portfolio h3{
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Education */
+.education a{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.education section{
+  display: flex;
+	margin: 0 auto;
+  flex-direction: row;
+	padding-bottom: 30px;
+	width: 960px;
+}
+.education div{
+  display: flex;
+  flex-direction: column;
+}
+.education #mem{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  padding-bottom: 40px;
+  margin-left: 30%;
+}
+
+.education #reb{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  margin-left: 30%;
+}
+
+.education img{
+  padding-right: 15px;
+}
+
+.transcripts a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+/* Experience */
+
+.experience{
+  padding: 20px 0;
+}
+
+.experience h4 {
+  font-weight: 450;
+  padding-top: 25px;
+}
+
+.experience h5{
+  padding-bottom: 5px;
+}
+
+table {
+  border: 2px solid darkgreen; 
+  border-spacing:10px; 
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid darkgrey; 
+} 
+
+td {
+  text-align: center;
+}
+
+/* Publications */
+
+.publications {
+  margin-top: 40px;
+}
+
+.publication-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted minimum width to 250px */
+  grid-gap: 20px;
+}
+
+.publication-item {
+  background-color: #f9f9f9;
+  padding: 15px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication-item h4 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px; /* Reduced font size */
+  line-height: 1.3;
+}
+
+.publications img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.publication-item img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+
+.publication-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Campaign */
+
+
+.campaignmat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; /* Adjust the gap between items */
+}
+
+.campaignmat a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+.campaignmat img {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.campaignmat img:hover {
+  transform: scale(1.1);
+}
+
+.commercials{
+  padding-top: 50px;
+}
+
+/* class projects */
+
+.classproj {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the gap between divs */
+  padding-top: 50px;
+}
+
+.classproj div {
+  display: flex;
+  align-items: center;
+}
+
+.classproj a {
+  margin-right: 20px; /* Adjust the space between image and text */
+  text-decoration: none;
+}
+
+.classproj img {
+  max-width: 250px; /* Adjust the image size as needed */
+  height: auto;
+}
+
+.classproj div div {
+  text-align: left;
+}
+
+.classproj div div h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.classproj div div p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+/* certifications */
+
+.certifications {
+  margin-top: 40px;
+}
+
+.certifications h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.certifications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.certification-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item p {
+  margin: 0;
+}
+
+.certification-date {
+  font-weight: bold;
+}
+
+.certification-id {
+  font-style: italic;
+}
+
+
+
+
+/******************************************
+  /* Connect
+  /*******************************************/
+
+  .contactpage h2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contactpage div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+    
+    .contactpage form {
+      padding-top: 100px;
+    }
+  
+    .register-group label {
+      color: #000000;
+      cursor: pointer;
+      font-weight: 400;
+    }
+    .register-group input,
+    .register-group select,
+    .register-group textarea {
+      border: 1px solid #c6c9cc;
+      border-radius: 5px;
+      color: #888;
+      display: block;
+      margin: 5px 0 27px 0;
+      padding: 5px 8px;
+    }
+    .register-group input,
+    .register-group textarea {
+      width: 100%;
+    }
+    .register-group select {
+      height: 34px;
+      width: 60px;
+    }
+    .register-group textarea {
+      height: 78px;
+    }
+  
+  
+  
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: darkgreen;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: white;
+    }
+    
+    form input,
+    form textarea {
+      width: 100%;
+      max-width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box; /* Include padding and border in width */
+    }
+    
+    form textarea {
+      height: 150px;
+    }
+    
+    form button {
+      background-color: white;
+      color: #333;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /******************************************
+  /* Blog
+  /*******************************************/
+/* Updated styles for blog posts */
+.blog-post {
+  text-align: center;
+  margin: 20px auto; /* Added margin to provide separation between blog posts */
+  position: relative;
+}
+
+.blog{
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+  display: inline-block;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.blog-post h2 {
+  padding-top: 10px;
+}
+
+.blog-content {
+  display: none;
+  margin-top: 10px; /* Added margin to create separation between arrow and content */
+  padding: 10px; /* Added padding to the content area for better readability */
+}
+
+.blog-content.visible {
+  display: block;
+}
+
+.dropdown-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333; /* Changed border-bottom to border-top */
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/* Add styles for the dropdown caption */
+.dropdown-caption {
+  font-size: 12px;
+  color: #666;
+  padding-bottom: 8px; /* Added padding to create separation below the text */
+}

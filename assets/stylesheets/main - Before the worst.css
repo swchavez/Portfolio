@@ -1,0 +1,665 @@
+/* 
+Reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 10px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  nav
+  ========================================
+*/
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.nav {
+  text-align: center;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #344945;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.primary-footer{
+  padding-top: 50px;
+}
+
+.socmed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socmed img {
+  padding: 10px;
+  height: 50px;
+  margin: 22px 0 22px 0;
+  vertical-align: top;
+}
+
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+body {
+  background: #f4fafd;
+  color: darkgreen;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong {
+  font-weight: 400;
+}
+p{
+  font-size: 15px;
+  font-weight: 381;
+}
+
+  /*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: rgb(0, 131, 55);
+  cursor: crosshair;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 10;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: auto;
+  align-content: center;
+  align-items: center;
+  padding: 30px 10px 10px 10px;
+  }
+
+
+  .btn-alt:hover {
+    background: #fff;
+    color: #0051ff;
+  }
+
+ 
+/*
+  ========================================
+Index
+  ========================================
+*/
+.intro h1{
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.logoimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoimg img {
+  padding: 10px;
+  height: 200px;
+  width: 400px;
+  margin: 10px 0 10px 0;
+  vertical-align: top;
+}
+
+.intro h3{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bio p{
+  display: flex;
+  justify-content: center;
+  justify-items: auto;
+  align-content: center;
+  align-items: center;
+  padding: 30px 200px 10px 200px;
+}
+
+.headshot{
+  text-align: center;
+}
+/*
+  ========================================
+Portfolio
+  ========================================
+*/
+
+.portintro{
+  text-transform:capitalize;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.porthead h3{
+ text-align: center;
+ padding-top: 10px;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
+.education h3{
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+.education section{
+  display: flex;
+	margin: 0 auto;
+  flex-direction: row;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+
+.education #memphis{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+
+/*
+.education #memphis img{
+  width: 100px;
+  margin: auto 0;
+  align-items: flex-start;
+}
+*/
+
+.education #rebs{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+
+/*
+.education #rebs img{
+  width: 25px;
+  margin: auto 0;
+  align-items: flex-start;
+}
+*/
+
+
+.portbtn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  }
+
+
+  .portbtn:hover {
+    color: #0051ff;
+  }
+
+.experience{
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+
+.experience h3{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 3px;
+}
+
+.experience h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  font-weight: 450;
+}
+
+.experience h5{
+  display: flex;
+  font-weight: 300;
+}
+
+.experience li {
+  display: flex;
+  color: black;
+}
+
+table {
+  border: 2px solid darkgreen; 
+  border-spacing:10px; 
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px; 
+  border: 1px solid darkgrey; 
+} 
+
+td {
+  text-align: center;
+}
+
+.publications{
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+
+.publications h3{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#pubworks div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.publications h4{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 20px;
+  font-weight: 900;
+  font-size: 200%;
+  letter-spacing:normal;
+  line-height: normal;
+}
+
+.publications img{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 50px;
+  max-width: 50%;
+}
+
+.projects{
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+
+.projects h3{
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.commercials{
+  display: flex;
+  justify-content: center;
+}
+
+
+.projects p {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.commercials img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 200px;
+  height: 150px;
+}
+
+#campaignmatwork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.campaignmat p {
+  font-size: 23px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.campaignmat img{
+  display:flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+.tracker{
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+  }
+
+.tracker p {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#trackerimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracker img{
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.twitter{
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+.twitter p {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#twitterimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter img{
+  border-radius: 5px;
+  display:flex;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  max-width: 100%;
+  width: 270px;
+  height: 200px;
+}
+
+.tableau p {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#tableauimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableau img{
+  border-radius: 5px;
+  display:flex;
+  margin-top: 50px;
+  max-width: 100%;
+  width: 300px;
+  height: 200px;
+}
+
+.certifications{
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+.certifications p{
+  display: flex;
+  flex-direction: row;
+}
+
+#achset1{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#achset2{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.certifications h3{
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 25px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+ }
+
+ .certifications p {
+   margin-bottom: 20px;
+   margin-left: 60px;
+ }
+
+/*
+  ========================================
+Connect
+  ========================================
+*/
+
+.contactpage{
+  display: flex;
+  justify-content: center;
+  justify-items: auto;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 200px 10px 200px;
+  }
+  
+  .contactpage h2{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid black;
+    margin: 0 10px 20px 0;
+  }
+  
+  .contactpage a{
+  color:#000000;
+  margin: 15px 0;
+  }
+  
+  .contactpage p{
+  padding: 30px 0;
+  }
+  
+  .contactpage form {
+    padding-top: 100px;
+  }
+
+  .register-group label {
+    color: #000000;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .register-group input,
+  .register-group select,
+  .register-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+  }
+  .register-group input,
+  .register-group textarea {
+    width: 100%;
+  }
+  .register-group select {
+    height: 34px;
+    width: 60px;
+  }
+  .register-group textarea {
+    height: 78px;
+  }
+  
+  
+  /******************************************
+  /* Responsive STYLES
+  /*******************************************/
+  @media screen and (max-width: 600px) {
+    .intro{
+      background: whitesmoke;
+      width: 100%;
+    }
+    .intro img{
+      margin: 0;
+      width: 300px;
+      height: 150px;
+    }
+    .headshot{
+      display:block;
+      text-align: left;
+    }
+    .primary-header, header, .primary-nav, .nav {
+      margin: 0;
+      text-align: left;
+    }
+    .socmed{
+      text-align: left;
+    }
+    .btn{
+      display:block;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 900px){
+    body{
+      background: blue;
+      width: 100%;
+    }
