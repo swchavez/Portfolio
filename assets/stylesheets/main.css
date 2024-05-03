@@ -181,12 +181,73 @@ p{
   align-items: center;
 }
 
+.homeend {
+  text-align: center;
+  padding-top: 20px;
+}
+
 .headshot{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 0;
+  padding: 15px;
 }
+
+.headshot img {
+  width: 200px; /* Or any desired width */
+  height: 200px; /* Or any desired height */
+  padding: 15px;
+  object-fit: cover;
+}
+
+
+    /******************************************
+  /* Tennis
+  /*******************************************/
+  
+  .tennispage H1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tennispage H3{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    border-bottom: #000000 solid 1px;
+    padding-top: 25px;
+  }
+
+  .tennispage H5{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+  }
+
+  .tennispage p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .tennispage ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .tennis-image {
+    text-align: center;
+  }
+  
+  .tennis-image img {
+    width: 25%; /* Responsive image */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
 
 
     /******************************************
